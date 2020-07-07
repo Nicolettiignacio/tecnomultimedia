@@ -18,4 +18,4 @@ pantalla 9:Entrar por la chimenea.
 
 pantalla 10:Entrar por la ventana.
 
-pantalla 11:El lobo es aullentado fuera del bosque.
+pantalla 11:El lobo es ahuyentado
