@@ -12,7 +12,7 @@ class Juego {
   Tiempo tiempo;
   Fin fin;
 
-  Materiales materiales, materiales1, materiales2, materiales3, materiales4, materiales5, materiales6, materiales7, materiales8, materiales9;
+  
   Materiales[] Materiales=new Materiales [11];
 
   Escala escala;
@@ -40,16 +40,16 @@ class Juego {
       Materiales[i]=new Materiales(imagen2, width, height,escala);  //declaro por array los new del material//
     }
 
-    Materiales[0]= materiales = new Materiales(imagenesJ[2],  75, 100,escala); 
-    Materiales[1]=materiales1 = new Materiales(imagenesJ[2], 250, 100,escala);  
-    Materiales[2]=materiales2 = new Materiales(imagenesJ[2], 150, 300,escala); 
-    Materiales[3]=materiales3 = new Materiales(imagenesJ[2], 425, 100,escala);
-    Materiales[4]=materiales4 = new Materiales(imagenesJ[2], 600, 100,escala);
-    Materiales[5]=materiales5 = new Materiales(imagenesJ[2], 725, 100,escala);  //inicio las posiciones de los materiales//
-    Materiales[6]=materiales6 = new Materiales(imagenesJ[2], 650, 300,escala);
-    Materiales[7]=materiales7 = new Materiales(imagenesJ[2], 150, 500,escala);
-    Materiales[8]=materiales8 = new Materiales(imagenesJ[2], 400, 500,escala);
-    Materiales[9]=materiales9 = new Materiales(imagenesJ[2], 650, 500,escala);
+    Materiales[0] = new Materiales(imagenesJ[2],  75, 100,escala); 
+    Materiales[1] = new Materiales(imagenesJ[2], 250, 100,escala);  
+    Materiales[2] = new Materiales(imagenesJ[2], 150, 300,escala); 
+    Materiales[3] = new Materiales(imagenesJ[2], 425, 100,escala);
+    Materiales[4] = new Materiales(imagenesJ[2], 600, 100,escala);
+    Materiales[5] = new Materiales(imagenesJ[2], 725, 100,escala);  //inicio las posiciones de los materiales//
+    Materiales[6] = new Materiales(imagenesJ[2], 650, 300,escala);
+    Materiales[7] = new Materiales(imagenesJ[2], 150, 500,escala);
+    Materiales[8] = new Materiales(imagenesJ[2], 400, 500,escala);
+    Materiales[9] = new Materiales(imagenesJ[2], 650, 500,escala);
 
 
 
