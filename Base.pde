@@ -1,6 +1,6 @@
 class base {
   
-  PImage imagen;
+  PImage torre;
   int ancho, alto, posX, posY; 
 
 
@@ -14,17 +14,13 @@ class base {
   }
   void dibujarBase() {
 
-
+    torre = loadImage("torre0.png");
     FBox base = new FBox(ancho, alto);
     base.setPosition(posX, posY);
     base.setStatic(true);
     base.setGrabbable(false);
-
+    base.attachImage(torre);
     mundo.add(base);
   }
 
-  void ponerImagen() {
-    imagen = loadImage("torre.png");
-    image(imagen, -100, 450,360,360);
-  }
 }
