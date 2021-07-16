@@ -6,7 +6,8 @@ class base {
 
 
   base(int ancho_, int alto_, int posX_, int posY_ ) {
-
+    
+    torre = loadImage("torre0.png");
     ancho=ancho_;
     alto=alto_;
     posX=posX_;
@@ -14,7 +15,7 @@ class base {
   }
   void dibujarBase() {
 
-    torre = loadImage("torre0.png");
+
     FBox base = new FBox(ancho, alto);
     base.setPosition(posX, posY);
     base.setStatic(true);
@@ -22,5 +23,4 @@ class base {
     base.attachImage(torre);
     mundo.add(base);
   }
-
 }
